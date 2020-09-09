@@ -1,0 +1,3 @@
+%TEST%
+
+disp('Coolio')
