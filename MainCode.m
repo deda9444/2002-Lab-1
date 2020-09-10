@@ -2,6 +2,7 @@
 %No u
 disp('Coolio')
 %Lame
+%ur lame
 
 %Variables
 %rho = ;
