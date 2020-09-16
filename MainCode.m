@@ -1,10 +1,9 @@
 %Atmospheric conditions:
-[Temp, mach, Pres, rho] = atmoscoesa(25000);
+[temp, mach, pres, rho] = atmoscoesa(25000);
 
 %Variables
-%rho = ;
-%temp = ;
-%R = ;
+rho_he = 0.000178;
+R_he = 2.7069;
 
 %Equations
 %Pressure = rho * temp * R;
