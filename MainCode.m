@@ -1,8 +1,5 @@
-%TEST%
-%No u
-disp('Coolio')
-%Lame
-%ur lame
+%Atmospheric conditions:
+[Temp, mach, Pres, rho] = atmoscoesa(25000);
 
 %Variables
 %rho = ;
@@ -10,7 +7,7 @@ disp('Coolio')
 %R = ;
 
 %Equations
-Pressure = rho * temp * R;
+%Pressure = rho * temp * R;
 
 %Pressure:
 
