@@ -12,7 +12,7 @@ p_gage = 10;
 k = 500;
 %Equations
 rho_h = pres/(temp*R_h)/1000;
-ys = 910^6; %[MPa]
+ys = 9*10^6; %[MPa]
 FoS = 1.5;
 rho_f = rho;
 %Equations
