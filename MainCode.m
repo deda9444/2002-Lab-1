@@ -20,7 +20,9 @@ r = (((6 / pi) ^ (1 / 3) * ys * (k ^ (1/3))) / ((8 * (ys ^ 3) * (rho - rho_h)) -
 
 v = 4/3 * pi * r^3;
 thickness = r*FoS*p_gage/(2*ys);
-m = k + (4/3 * pi * (thickness + r)^3 - v)*rho_mat + v * rho_h;
+m_mat = (4/3 * pi * (thickness + r)^3 - v)*rho_mat;
+m_h = v * rho_h;
+m = k + m_mat + m_h;
 Fb = rho*9.8065*v;
 Fg = m * 9.8065;
 
