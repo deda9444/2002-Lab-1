@@ -11,6 +11,7 @@ R_he = 2.7069;
 %Equations
 press_he = rho_he * temp * R_he;
 
+radius = 14.9463;
 %Pressure:
 
 %Density:
