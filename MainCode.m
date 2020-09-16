@@ -5,15 +5,15 @@ clc;
 [temp, mach, pres, rho] = atmoscoesa(25000);
 
 %Variables
-rho_he = 0.000178;
-R_he = 2.7069;
+R_h = 8.24978430917;
 
 %Equations
-press_he = rho_he * temp * R_he;
+%press_he = rho_he * temp * R_he;
+rho_h = pres/(temp*R_h);
 
-radius = 14.9463;
+radius = 15.1428;
 %Pressure:
-
+    
 %Density:
 
 %Temperature:
