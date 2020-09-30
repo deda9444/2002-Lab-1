@@ -37,3 +37,6 @@ Fb = rho*9.8065*v;
 % Force of gravity on system
 Fg = m * 9.8065;
 
+%---------------------------------------------------------------------
+
+rho_h_d = pres/(T_b_d*R_h)/1000; % Density of H based on atmospheric conditions and P = pRT (kg/m^3)
