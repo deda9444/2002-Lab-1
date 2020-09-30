@@ -49,6 +49,6 @@ v_new = m_h_new / rho_h_d;
 
 f_g_new = 9.8065 * (m_mat + m_h_new + k);
 
-f_b_new = v_new * rho;
+f_b_new = v_new * rho * 9.8065;
 
 
