@@ -40,3 +40,5 @@ Fg = m * 9.8065;
 %---------------------------------------------------------------------
 
 rho_h_d = pres/(T_b_d*R_h)/1000; % Density of H based on atmospheric conditions and P = pRT (kg/m^3)
+
+M_H_vented = (m_mat + k + (v * rho_H_D) - (rho * v)) / (1 - (rho/rho_H_D));
