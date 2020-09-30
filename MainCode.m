@@ -43,7 +43,7 @@ rho_h_d = pres/(T_b_d*R_h)/1000; % Density of H based on atmospheric conditions 
 
 m_h_vented = (m_mat + k + (v * rho_h_d) - (rho * v)) / (1 - (rho/rho_h_d));
 
-m_h_new = m_h - m_h_vented;
+m_h_new = v * rho_h_d - m_h_vented;
 
 v_new = m_h_new / rho_h_d;
 
