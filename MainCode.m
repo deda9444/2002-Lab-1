@@ -74,3 +74,5 @@ m_new = m_mat + m_h_new + k;
 f_g_new = 9.8065 * (m_new);
 
 f_b_new = v_new * rho * 9.8065;
+
+r_day = (3*v_new/(4*pi))^(1/3);
