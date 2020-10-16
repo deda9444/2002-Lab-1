@@ -76,3 +76,30 @@ f_g_new = 9.8065 * (m_new);
 f_b_new = v_new * rho * 9.8065;
 
 r_day = (3*v_new/(4*pi))^(1/3);
+
+%% Plotting some stuff
+
+%Buoyancy vs Gravity
+xy = 5000:1:6500;
+plot(xy);
+hold on;
+scatter([Fb,f_b_new],[Fg,f_g_new]);
+xlim([5000,6500]);
+ylim([5000,6500]);
+xline(Fb);
+xline(f_b_new);
+yline(Fg);
+yline(f_g_new);
+xlabel("Force of Buoyancy (N)");
+ylabel("Force of Gravity (N)");
+title("Buoyancy vs Gravity");
+
+figure;
+% Volume vs Buoyancy
+vv = 5:1:20;
+Fbv = vv * 1000 * rho * 9.8065;
+plot(vv,Fbv);
+xlabel("Volume (1000 of m^3)");
+ylabel("Force of Buoyancy (N)");
+title("Volume vs Buoyancy");
+
